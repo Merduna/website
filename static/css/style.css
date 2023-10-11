@@ -1,0 +1,12 @@
+body {
+    background-color: purple;
+    color: lavenderblush;
+}
+
+h1, p {
+    text-align: center;
+}
+
+.social img {
+    max-width: 32px;
+}

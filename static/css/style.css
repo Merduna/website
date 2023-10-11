@@ -1,9 +1,44 @@
 body {
-    background-color: purple;
-    color: lavenderblush;
+    background-color: lavenderblush;
+    color:blueviolet;
+    padding: 0px;
+    margin: 0px;
 }
 
-h1, p {
+h1, h2, h3, h4, h5, h6 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: blueviolet;
+    color: lavenderblush;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.about {
+    background-color: blueviolet;
+    color: lavenderblush;
+    padding: 20px;
+}
+
+.portfolio {
+    background-color: lavenderblush;
+    color:blueviolet;
+    padding: 5px;
+    margin: 30px;
+}
+
+.contact {
+    background-color: blueviolet;
+    color: lavenderblush;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.centered {
     text-align: center;
 }
 

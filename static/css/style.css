@@ -1,9 +1,50 @@
-body {
-    background-color: purple;
-    color: lavenderblush;
+:root {
+    --back: purple;
+    --fore: lavenderblush;
 }
 
-h1, p {
+body {
+    background-color: var(--back);
+    color:var(--fore);
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: var(--back);
+    color:var(--fore);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.about {
+    background-color: var(--back);
+    color:var(--fore);
+    padding: 20px;
+}
+
+.portfolio {
+    background-color: var(--back);
+    color:var(--fore);
+    padding: 5px;
+    margin: 30px;
+}
+
+.contact {
+    background-color: var(--back);
+    color:var(--fore);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.centered {
     text-align: center;
 }
 

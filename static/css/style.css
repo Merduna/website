@@ -1,6 +1,6 @@
 :root {
-    --back: #300020;
-    --fore: #FFE9F9;
+    --back: purple;
+    --fore: lavenderblush;
 }
 
 body {
